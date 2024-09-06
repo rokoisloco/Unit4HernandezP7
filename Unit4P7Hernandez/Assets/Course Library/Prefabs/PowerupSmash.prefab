@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5420816104158811112
+--- !u!1 &1475575702637064414
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,26 +8,26 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1745438737933103446}
-  - component: {fileID: 5822069706528569711}
-  - component: {fileID: 8863528312838448637}
-  - component: {fileID: 3353998469920257705}
-  - component: {fileID: -8281335838292659838}
-  - component: {fileID: 6779564695697434241}
+  - component: {fileID: 5041061683015332869}
+  - component: {fileID: 2064947843698560916}
+  - component: {fileID: 7012296798310889722}
+  - component: {fileID: 6287265233912979256}
+  - component: {fileID: 6361642982185505101}
+  - component: {fileID: 7837396965533214651}
   m_Layer: 0
-  m_Name: PowerupRockets
+  m_Name: PowerupSmash
   m_TagString: Powerup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1745438737933103446
+--- !u!4 &5041061683015332869
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5420816104158811112}
+  m_GameObject: {fileID: 1475575702637064414}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5, y: 0, z: 0}
@@ -36,21 +36,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5822069706528569711
+--- !u!33 &2064947843698560916
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5420816104158811112}
+  m_GameObject: {fileID: 1475575702637064414}
   m_Mesh: {fileID: 4300000, guid: f7ec8369cac1a7e4ab36747b35f91c24, type: 3}
---- !u!23 &8863528312838448637
+--- !u!23 &7012296798310889722
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5420816104158811112}
+  m_GameObject: {fileID: 1475575702637064414}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8c594af1000b3f94ca2b2380e8433415, type: 2}
+  - {fileID: 2100000, guid: 876954dd2f1d53348b42a68f0ff9a49a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,13 +86,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3353998469920257705
+--- !u!65 &6287265233912979256
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5420816104158811112}
+  m_GameObject: {fileID: 1475575702637064414}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -107,26 +107,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5122995, y: 0.48738986, z: 0.109224334}
   m_Center: {x: 0, y: 0.000000007450581, z: 0.0000000018626451}
---- !u!114 &-8281335838292659838
+--- !u!114 &6361642982185505101
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5420816104158811112}
+  m_GameObject: {fileID: 1475575702637064414}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e78abfc122effc4895966f2fa0e92cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpType: 2
---- !u!54 &6779564695697434241
+  powerUpType: 3
+--- !u!54 &7837396965533214651
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5420816104158811112}
+  m_GameObject: {fileID: 1475575702637064414}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
